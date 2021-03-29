@@ -1,9 +1,9 @@
 import React from 'react';
 
-function SayHello(props) {
+function SayHello({ name }) {
   return (
     <div>
-      <h2>hello {props.name} how are you?</h2>
+      <h2>hello {name} how are you?</h2>
     </div>
   );
 }
